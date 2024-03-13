@@ -1,0 +1,56 @@
+.list-item{
+    list-style-type: none;
+    padding-right: 40px;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    box-sizing: border-box;
+    width: 1366px;
+}
+.logo{
+    width: 143px;
+    height: 23px;
+    display: flex;
+    justify-self: left;
+}
+.tel_logo{
+    display: flex;
+    padding-right: 60px;
+}
+.section_1 {
+    display: flex;
+    background-image: url(../images/main\ photo.jpg);
+    min-height: 512px;
+}
+
+.rocket{
+    width: 135px;
+    height: 68px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    align-self:flex-end;
+    justify-self: end;
+}
+.car_left{
+    width: 108px;
+    height: 84px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+}
